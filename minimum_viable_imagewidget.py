@@ -61,6 +61,9 @@ class ImageWidget:
         """
         Settable, a float.  If "1", means real-pixel-size.  "2" means zoom out
         by factor of 2, 0.5 means 2 screen pixels for 1 data pixel, etc.
+        
+        The special value "fit" scales the image to be as large as possible while 
+        fitting in the viewer window.
 
         Might be better as a getter/setter pair rather than property since it
         may be performance-intensive?
