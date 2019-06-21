@@ -45,9 +45,11 @@ class ImageWidget:
         *intentional* - the user should create an `nddata` if they want wcs.
         """
 
-    def center_on(self, x, y):
+    def center_on(self, point):
         """
         Centers the view on a particular point
+        
+        ``point`` can either be an (x, y) pixel pair or a SkyCoord object.
         """
 
     def offset_to(self, dx, dy):
