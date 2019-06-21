@@ -92,7 +92,7 @@ class ImageWidget:
         object.
         """
 
-    def stop_selecting(self, clear_marks=True):
+    def stop_selecting(self, clear_marks=False):
         """
         Just what it says on the tin.
 
